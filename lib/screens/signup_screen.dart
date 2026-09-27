@@ -36,7 +36,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
   void signUpPressed() {
     if (_formKey.currentState!.validate()) {
-      Navigator.pushReplacementNamed(context, '/login');
+      Navigator.pushReplacementNamed(context, '/home');
     }
   }
 
