@@ -62,7 +62,7 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // small wordmark, same as login screen
+                  
                   const SizedBox(height: 40),
                   Center(
                     child: Container(
